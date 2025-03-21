@@ -1,0 +1,37 @@
+// Online C compiler to run C program online
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char peça [5];
+    int i;
+
+    // Entrada de dados
+    
+
+    // Movimento da Torre (FOR)
+    printf("\nMovimento da torre 5 casas para a direita):\n", &peça);
+    for (i = 1; i <= 5; i++) {
+        printf("Direita. ");
+    }
+printf ("\n");
+
+
+    // Movimento do Bispo (WHILE)
+    printf("\nMovimento do Bispo 5 casas na diagonal para cima e à direita):\n", &peça);
+    i = 1;
+    while (i <= 5) {
+        printf("Cima, Direita\n");
+        i++;
+    }
+
+    // Movimento da Rainha (DO-WHILE)
+    printf("\nMovimento da Rainha 9 casas para a esquerda):\n", peça);
+    i = 1;
+    do {
+        printf("  Esquerda. ");
+        i++;
+    } while (i <= 9);
+
+    return 0;
+}
