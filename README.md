@@ -1,1 +1,1 @@
-# Movimento de peças de vadrez
+# Movimento de peças de xadrez
