@@ -1,0 +1,47 @@
+// Online C compiler to 
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void recursivo(int numero, char *nomes []){
+    
+
+    if (numero > 0){
+        printf ("%s \n", nomes [0]);
+        recursivo (numero  - 1, nomes);
+    }
+}
+
+int main() { 
+ char *nomes [] = {"Direita"} ;
+ int Torre = 5;
+ printf ("Movimento da torre\n");
+ recursivo ( Torre, nomes);
+
+ int Bispo = 0 ;
+ int i,j;
+ printf ("Movimento da Bispo\n");
+ recursivo(Bispo, nomes);
+ i = 0;
+    while (i < 5) {
+        printf("Cima. ");
+        for (j = 0; j < 1; j++) {
+            printf("Direita.\n");
+        i++;
+    }
+}
+ int Rainha = 9 ;
+ printf ("Movimento da Rainha\n");
+ recursivo(Rainha, nomes);
+ 
+   printf("Movimento do Cavalo:\n");
+    for (i = 0, j = 0; i < 2; i++) {
+        printf("\nCima..");continue;
+    }
+    for (j = 0; j < 1; j++) {
+        printf("Direita.");
+    
+break;
+   
+}
+return 0;
+}
